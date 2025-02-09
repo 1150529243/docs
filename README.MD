@@ -114,3 +114,8 @@ config 配置项 docFooter:'文档页脚'
     2.点击pages
     3.选择branch
     4.选择分支 选择项目  点击Save
+
+
+### 如何访问
+    在就 仓库的settings--点击pages 有链接显示
+    项目地址 https://1150529243.github.io/docs/
