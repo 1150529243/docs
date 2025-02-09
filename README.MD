@@ -89,3 +89,28 @@ config 配置项 docFooter:'文档页脚'
 ## 贡献者
 
     vitepress是有插件可以编写vue代码的 写在对应的md文件就行
+
+    ```js
+    
+    <script setup>
+
+    import {VPTeamMembers} from 'vitepress/theme'
+
+    const members = [
+    {
+        name:'VitePress',
+        title:'core team',
+        avatar:'http://vitejs.dev/logo.svg',
+        link:'http://vitejs.dev/'
+    }
+    ]
+    </script>
+
+    <VPTeamMembers size="small" :members="members"/>
+    ```
+
+### 部署静态网站
+    1.打开仓库的settings
+    2.点击pages
+    3.选择branch
+    4.选择分支 选择项目  点击Save
